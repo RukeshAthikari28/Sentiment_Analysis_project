@@ -43,7 +43,7 @@ print("Precision Score on test dateset for Logistic Regression: %s" % precision_
 print("AUC Score on test dateset for Logistic Regression: %s" % roc_auc_score(y_test,y_score,multi_class='ovo',average='macro'))
 f1_score_train_1 =f1_score(y_test,y_predict,average="weighted")
 print("F1 Score test dateset for Logistic Regression: %s" % f1_score_train_1)
-confusion_matrix_plot(y_test, y_predict)
+confusion_matrix_plot(y_test, y_predict) # confusion matrix
 
 
 #Store base model
