@@ -5,7 +5,7 @@ import datetime
 import os
 
 app = Flask(__name__)
-#model_path = os.getcwd()+r'\sentimentanalysis\models\model'
+#model_path = os.getcwd()+r'\sentiment_analysis_project\models\model'
 model_path = os.getcwd()+r'/models/model'
 classifier = joblib.load(model_path+r'\classifier.pkl') 
 
