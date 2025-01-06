@@ -5,7 +5,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 
 def precision_score_plot(y_test,y_score):
     precision, recall, thresholds = precision_recall_curve(y_test, y_score)
-    #create precision recall curve
+    #create precision recall curve and subplots
     fig, ax = plt.subplots()
     ax.plot(recall, precision, color='purple')
     #add axis labels to plot
