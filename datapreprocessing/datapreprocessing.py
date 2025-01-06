@@ -25,7 +25,7 @@ def remove_stopwords(content):
             clean_data.append(i.strip().lower())
     return " ".join(clean_data)
 
-# Expansion of english contractions
+# Expansion of english contractions as function
 def contraction_expansion(content):
     content = re.sub(r"won\'t", "would not", content)
     content = re.sub(r"can\'t", "can not", content)
