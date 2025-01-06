@@ -17,11 +17,10 @@ The **Sentiment Analyzer** project performs sentiment classification on movie re
 - **NLTK** for natural language processing tasks
 - **Matplotlib** for visualizations
 
-## Dataset
 
 The model is trained on the **IMDB Movie Review dataset**, which contains 50,000 reviews labeled as positive or negative. This dataset is commonly used for binary sentiment classification.
 
-- Dataset: [IMDB Movie Review Dataset](https://ai.stanford.edu/~amaas/data/sentiment/)
+- Dataset: [] 
 
 ## Installation
 
@@ -32,9 +31,9 @@ git clone https://github.com/RukeshAthikari/sentiment_analysis_project.git
 
  2. Create a Virtual Environment
 It’s recommended to use a virtual environment for this project:
-
 cd sentiment-analyzer
 python -m venv venv
+
 3. pip install -r requirements.txt
 
 4. Preprocessing the Data
